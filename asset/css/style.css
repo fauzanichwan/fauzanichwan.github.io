@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #2E2F30;
+}
+
+@media only screen and (min-width:1200px) {
+    .nav-item > .nav-link {
+        padding: 5px 20px !important;
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .header-inner {
+        background-color: #2E2F30 !important;
+    }
+
+    .nav-item > .nav-link {
+        color: rgb(255, 255, 255) !important;
+    }
+
+    .logo {
+        color: #000 !important;
+        font-weight: 600 !important;
+    }
+
+    .content-banner .tentang-saya {
+        width: 100% !important;
+    }
+
+    .profile-hero {
+        padding-top: 70px !important;
+    }
+
+    .content-banner {
+        padding-top: 100px !important;
+    }
+
+    .section-bg {
+        padding-top: 10px !important;
+        height: auto !important;
+    }
+
+    .section-content {
+        margin-top: 70px !important;
+    }
+
+}
+
+.header {
+    position: relative;
+    width: 100%;   
+}
+
+.header-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: #2E2F30;
+}
+
+.logo {
+    color: rgb(0, 0, 0);
+    font-weight: 600 !important;
+}
+
+.nav-item .nav-link {
+    display: block;
+    line-height: 36px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    transition: 0.15%;
+}
+
+.nav-item .nav-link:hover {
+    color: #6081BF;
+}
+
+.navbar-scroll {
+    background-color: #2E2F30;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    transition-duration: 0.6s;
+}
+
+.navbar-scroll .nav-item .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-scroll .nav-item .nav-link:hover {
+    color: #6081BF;
+}
+
+.navbar-scroll .logo {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+/* brand */
+.brand-logo {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* end brand */
+
+/* content */
+.content-banner {
+    min-height: 400px;
+    height: 100%;
+    position: relative;
+    padding-top: 150px;
+}
+
+.profile-hero {
+    min-height: 400px;
+    height: 100%;
+    position: relative;
+    padding-top: 150px;
+}
+/* end of content */
+
+/* hero desc */
+.perkenalan {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6081BF;
+
+}
+
+.profesi {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.tentang-saya {
+    width: 444px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #E4E4E4;
+}
+
+.download-cv {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E4E4E4;
+}
+/* end of hero desc */
+
+/* btn */
+.btn-email {
+    text-align: left;
+    width: 138px;
+    height: 54px;
+    background: #6081BF;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    padding-top: 14px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.btn-email:hover {
+    text-align: left;
+    width: 138px;
+    height: 54px;
+    background: #6081BF;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    padding-top: 14px;
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: 0px 4px 30px rgba(150, 199, 243, 0.63);
+    transition: 0.4s;
+}
+
+.btn-content {
+    margin-top: 40px;
+}
+
+.btn-selengkapnya {
+    width: 308px;
+    background-color: #828B97;
+    color: white;
+}
+
+.btn-selengkapnya:hover {
+    width: 308px;
+    background-color: #828B97;
+    color: white;
+}
+/* end of btn */
+
+/* section */
+.heading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.section-content {
+    margin-top: 250px;
+}
+
+.section-content-scnd {
+    margin-top: 150px;
+}
+
+.section-bg {
+    padding-top: 10px;
+    height: 243px;
+    background: #47494A;
+}
+
+.text-proyek a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+/* end of section */
+
+/* skill */
+.h-skill {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.h-desc {
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #E4E4E4;
+}
+
+.tools {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* end of skill */
+
+
+
+
+
+
+
+
+
