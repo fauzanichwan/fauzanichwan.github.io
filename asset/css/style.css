@@ -221,6 +221,13 @@ body {
     color: #FFFFFF;
 }
 
+.heading-proyek-tab {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
 .section-content {
     margin-top: 250px;
 }
@@ -269,7 +276,30 @@ body {
 }
 /* end of skill */
 
+/* more proyek */
 
+.section-more-proyek {
+    min-height: 300px;
+    height: 100%;
+    position: relative;
+    padding-top: 150px;
+}
+
+.tablinks{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.section-more-proyek a.active {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #6081BF;
+} 
 
 
 
