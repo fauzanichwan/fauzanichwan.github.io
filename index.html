@@ -1,331 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"  integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link href="asset/css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <title>Fauzan Ichwan</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Fauzan`s Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: PhotoFolio - v1.0.0
+  * Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
+
 <body>
-    <!-- navbar -->
-    <header class="header">
-        <div class="header-inner">
-            <nav class="navbar navbar-expand-lg my-navbar">
-                <div class="container">
-                    <a class="navbar-brand" href="#">
-                        <span class="logo">
-                            <img src="asset/img/logo.svg">
-                            <span class="brand-logo">Fauzan Ichwan</span>
-                        </span>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"><i class="fas fa-bars" style="margin: 5px 0px 0px 0px; color: #fff;"></i></span>
-                    </button>
-                    <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto flex-nowrap">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#proyek">Proyek</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#tentang">Tentang</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#kontak">Kontak</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center  me-auto me-lg-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <i class="bi bi-camera"></i>
+        <h1>Portfolio</h1>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Gallery</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="gallery.html">Nature</a></li>
+              <li><a href="gallery.html">People</a></li>
+              <li><a href="gallery.html">Architecture</a></li>
+              <li><a href="gallery.html">Animals</a></li>
+              <li><a href="gallery.html">Sports</a></li>
+              <li><a href="gallery.html">Travel</a></li>
+              <li class="dropdown"><a href="#"><span>Sub Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="#">Sub Menu 1</a></li>
+                  <li><a href="#">Sub Menu 2</a></li>
+                  <li><a href="#">Sub Menu 3</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li> -->
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="http://power.biz.id/" target="_blank">Our Studio</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+      <div class="header-social-links">
+        <!-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a> -->
+        <a href="https://www.instagram.com/fauzan.ichwan/" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/fauzan-ichwan-nur-pratama-982507176/" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></i></a>
+        <a href="https://github.com/fauzanichwan" class="instagram" target="_blank"><i class="bi bi-github"></i></a>
+      </div>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex flex-column justify-content-center align-items-center" data-aos="fade" data-aos-delay="1500">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 text-center">
+          <h2>Hello :) I'm <span>Fauzan Ichwan</span></h2>
+          <h2>a Professional UI/UX Designer</h2>
+          <p>I have been working as a UI UX designer & Software Developer for more than 3 years, I leverage design thinking in my work to help shape the development of products and services based on user needs.</p>
+          <a href="https://drive.google.com/file/d/1pafoYF-9omhuh7xvdwW_iuhPskUeopZl/view?usp=sharing" class="btn-get-started" target="_blank">Download Curiculum Vitae</a>
         </div>
-    </header>
-    <!-- end of navbar -->
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
 
-     <!-- banner -->
-    <section>
-        <div class="container" id="tentang">
-            <div class="row">
-                <div class="col-md-8 content-banner">
-                    <p class="perkenalan">Perkenalkan, Saya Fauzan Ichwan Nur Pratama</p>
-                    <p class="profesi">UI/UX Designer.</p>
-                    <p class="tentang-saya">Saya seorang UI/UX designer sekaligus programmer, saya sudah bekerja di dunia teknologi informasi sejak tahun 2018, beberapa produk pernah saya kerjakan baik sebagai ui/ux designer maupun programmer.</p>
-                    <p class="btn-content">
-                        <a href="mailto:fauzanichwan99@gmail.com" class="btn btn-email"><img src="asset/img/email-white.svg" alt="" class="img-fluid">&nbsp;&nbsp;&nbsp;&nbsp;Email</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="https://www.instagram.com/fauzan.ichwan/" target="_blank"><img src="asset/img/ig.svg" class="img-fluid"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="https://www.linkedin.com/in/fauzan-ichwan-nur-pratama-982507176/" target="_blank"><img src="asset/img/linkedin.svg" class="img-fluid"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="https://github.com/fauzanichwan" target="_blank"><img src="asset/img/github.svg" class="img-fluid"></a>
-                    </p>
-                    <p class="download-cv">
-                        <a href="https://drive.google.com/file/d/1cfZSCcwz_K1ja0BvetlCW7pTPTy0VSqL/view?usp=sharing" target="_blank" style="text-decoration: none; color: #E4E4E4;">
-                            <img src="asset/img/download.svg" class="img-fluid">&nbsp;&nbsp;&nbsp;
-                            Download CV
-                        </a>
-                    </p>
-                </div>
-                <div class="col-md-4 profile-hero">
-                    <img src="asset/img/profile.png" alt="" class="img-fluid">
-                </div>
+  <main id="main" data-aos="fade" data-aos-delay="1500">
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+      <div class="container-fluid">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="gallery-item">
+              <img src="img/dls.png" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="detail-dls.html" class="btn btn-outline-light btn-sm">View Detail <i class="bi bi-arrow-right-short"></i></a>
+                <!-- <a href="img/dls.png" title="Gallery 1" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+              </div>
             </div>
+          </div><!-- End Gallery Item -->
+          <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="gallery-item">
+              <img src="img/kino-siap.png" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="detail-kino-siap.html" class="btn btn-outline-light btn-sm">View Detail <i class="bi bi-arrow-right-short"></i></a>
+                <!-- <a href="img/pca.png" title="Gallery 2" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
+          <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="gallery-item">
+              <img src="img/powerbiz.png" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="detail-powerbiz.html" class="btn btn-outline-light btn-sm">View Detail <i class="bi bi-arrow-right-short"></i></a>
+                <!-- <a href="img/powerbiz.png" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
+          <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="gallery-item">
+              <img src="img/cg.png" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="detail-cg.html" class="btn btn-outline-light btn-sm">View Detail <i class="bi bi-arrow-right-short"></i></a>
+                <!-- <a href="img/powerbiz.png" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
+          <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="gallery-item">
+              <img src="img/g24.png" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="detail-g24.html" class="btn btn-outline-light btn-sm">View Detail <i class="bi bi-arrow-right-short"></i></a>
+                <!-- <a href="img/powerbiz.png" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
+          <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="gallery-item">
+              <img src="img/nayz.png" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="detail-nayz.html" class="btn btn-outline-light btn-sm">View Detail <i class="bi bi-arrow-right-short"></i></a>
+                <!-- <a href="img/powerbiz.png" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
+          <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="gallery-item">
+              <img src="img/pca.png" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="https://power.biz.id/sit/" class="btn btn-outline-light btn-sm" target="_blank">View Website <i class="bi bi-arrow-right-short"></i></a>
+                <!-- <a href="img/powerbiz.png" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
+          <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="gallery-item">
+              <img src="img/jadibaik.png" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="detail-jadibaik.html" class="btn btn-outline-light btn-sm">View Detail <i class="bi bi-arrow-right-short"></i></a>
+                <!-- <a href="img/powerbiz.png" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
+          <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="gallery-item">
+              <img src="img/gmobile.png" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="detail-gmobile.html" class="btn btn-outline-light btn-sm">View Detail <i class="bi bi-arrow-right-short"></i></a>
+                <!-- <a href="img/powerbiz.png" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div>
+          </div><!-- End Gallery Item -->
+
         </div>
-    </section>
-    <!-- end of banner -->
-    
-    <!-- content -->
-    <section>
-        <div class="container section-content" id="proyek">
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="heading">
-                        Proyek
-                    </p>
-                    <img src="asset/img/sugar.png" class="img-fluid">
-                </div>
-            </div>
-            <div class="row mt-2">
-                <div class="col-md-12">
-                    <p class="text-proyek">
-                        <img src="asset/img/link.svg" class="img-fluid">&nbsp;
-                        <a href="https://sugar-for-pirate-king.github.io/" target="_blank">Kunjungi Website</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <section>
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-md-12">
-                    <img src="asset/img/diari.png" class="img-fluid">
-                </div>
-            </div>
-            <div class="row mt-2">
-                <div class="col-md-12">
-                    <p class="text-proyek">
-                        <img src="asset/img/link.svg" class="img-fluid">&nbsp;
-                        <a href="http://www.diari.id/" target="_blank">Kunjungi Website</a>&nbsp;&nbsp;&nbsp;&nbsp;
+      </div>
+    </section><!-- End Gallery Section -->
 
-                        <img src="asset/img/studi.svg" class="img-fluid">&nbsp;
-                        <a href="https://docs.google.com/document/d/1BEopXOfM_lHpY5U5oTfhjpKiNryLMXDjer29B32_pEM/edit#heading=h.qz7t3ettcvm6" target="_blank">Studi Kasus</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+  </main><!-- End #main -->
 
-    <section>
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-md-12">
-                    <img src="asset/img/citigov.png" class="img-fluid">
-                </div>
-            </div>
-            <div class="row mt-2">
-                <div class="col-md-12">
-                    <p class="text-proyek">
-                        <img src="asset/img/link.svg" class="img-fluid">&nbsp;
-                        <a href="https://citigov.id/" target="_blank">Kunjungi Website</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>FauzanIchwan</span></strong>. All Rights Reserved
+      </div>
+      <!-- <div class="credits"> -->
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/ -->
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div> -->
+    </div>
+  </footer>
 
-                        <img src="asset/img/studi.svg" class="img-fluid">&nbsp;
-                        <a href="https://www.youtube.com/watch?v=rVriaddiqV8" target="_blank">Studi Kasus</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-                        <img src="asset/img/playstore.svg" class="img-fluid">&nbsp;
-                        <a href="https://play.google.com/store/apps/details?id=id.citigov.cartenz" target="_blank">Download Playstore</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+  <div id="preloader">
+    <div class="line"></div>
+  </div>
 
-    <section>
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-md-12">
-                    <img src="asset/img/gmobile.jpg" class="img-fluid">
-                </div>
-            </div>
-            <div class="row mt-2">
-                <div class="col-md-12">
-                    <p class="text-proyek">
-                        <!-- <img src="asset/img/link.svg" class="img-fluid">&nbsp;
-                        <a href="">Kunjungi Website</a>&nbsp;&nbsp;&nbsp;&nbsp; -->
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
 
-                        <img src="asset/img/studi.svg" class="img-fluid">&nbsp;
-                        <a href="https://docs.google.com/document/d/1m_37eck9u-ojYvpXu0vi2BPQY0Cd0PWW4bnDI6v4OYI/edit?usp=sharing" target="_blank">Studi Kasus</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
-                        <!-- <img src="asset/img/playstore.svg" class="img-fluid">&nbsp;
-                        <a href="">Download Playstore</a> -->
-                    </p>
-                </div>
-            </div>
-            <div class="row mt-3">
-                <div class="col-md-12">
-                    <a href="proyek.html" class="btn btn-selengkapnya">Lihat lebih banyak proyek saya&nbsp;&nbsp;&nbsp;<img src="asset/img/next.svg" class="img-fluid"></a>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section>
-        <div class="container section-content-scnd">
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="heading">
-                        Mengapa Memilih Saya ?
-                    </p>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-md-3">
-                    <center><img src="asset/img/komunikatif.svg" class="img-fluid"></center>
-                    <p class="h-skill mt-4">
-                        Komunikatif
-                    </p>
-                    <p class="h-desc">
-                        Saya adalah pribadi yang komunikatif, mudah berkolaborasi serta menjaga hubungan pekerjaan dengan baik.
-                    </p>
-                </div>
-
-                <div class="col-md-3">
-                    <center><img src="asset/img/kreatif.svg" class="img-fluid"></center>
-                    <p class="h-skill mt-4">
-                        Kreatif
-                    </p>
-                    <p class="h-desc">
-                        Segala hal yang berkaitan dengan seni, terutama gambar atau design sangat saya gemari.
-                    </p>
-                </div>
-
-                <div class="col-md-3">
-                    <center><img src="asset/img/kolaboratif.svg" class="img-fluid"></center>
-                    <p class="h-skill mt-4">
-                        Kolaboratif
-                    </p>
-                    <p class="h-desc">
-                        Bekerja dalam sebuah tim merupakan hal yang menyenangkan bagi saya, saling tukar pikiran dan memecahkan masalah bersama-sama.
-                    </p>
-                </div>
-
-                <div class="col-md-3">
-                    <center><img src="asset/img/waktu.svg" class="img-fluid"></center>
-                    <p class="h-skill mt-4">
-                        Waktu
-                    </p>
-                    <p class="h-desc">
-                        Saya adalah seorang yang sangat menghargai waktu, dalam berbagai kesempatan saya selalu berusaha untuk disiplin terhadap hal tersebut.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="container section-content-scnd mb-5">
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="heading">
-                        Kemampuan & Alat
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="section-bg">
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-md-1">
-
-                </div>
-                <div class="col-md-2">
-                    <center><img src="asset/img/figma.svg" class="img-fluid"></center>
-                    <p class="mt-3 tools">
-                        Figma
-                    </p>
-                </div>
-
-                <div class="col-md-2">
-                    <center><img src="asset/img/laravel.svg" class="img-fluid"></center>
-                    <p class="mt-3 tools">
-                        Laravel
-                    </p>
-                </div>
-
-                <div class="col-md-2">
-                    <center><img src="asset/img/html.svg" class="img-fluid"></center>
-                    <p class="mt-3 tools">
-                        HTML
-                    </p>
-                </div>
-
-                <div class="col-md-2">
-                    <center><img src="asset/img/css.svg" class="img-fluid"></center>
-                    <p class="mt-3 tools">
-                        CSS
-                    </p>
-                </div>
-
-                <div class="col-md-2">
-                    <center><img src="asset/img/ai.svg" class="img-fluid"></center>
-                    <p class="mt-3 tools">
-                        Illustrator
-                    </p>
-                </div>
-                <div class="col-md-1">
-                    
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="container section-content-scnd mb-5" id="kontak">
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="heading">
-                        Informasi Kontak
-                    </p>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-12">
-                    <p><img src="asset/img/email-kontak.svg" class="img-fluid">&nbsp;<span style="color: white;">Email :</span>&nbsp;&nbsp;&nbsp;<a href="mailto:fauzanichwan99@gmail.com" style="text-decoration: none; color: white; text-decoration-line: underline;">fauzanichwan99@gmail.com</a></p>
-
-                    <p><img src="asset/img/wa-kontak.svg" class="img-fluid">&nbsp;<span style="color: white;">WhatsApp :&nbsp;&nbsp;&nbsp;085973814784</span></p>
-
-                    <p class="mt-5">
-                        <a href="https://www.instagram.com/fauzan.ichwan/" target="_blank"><img src="asset/img/ig.svg" class="img-fluid"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="https://www.linkedin.com/in/fauzan-ichwan-nur-pratama-982507176/" target="_blank"><img src="asset/img/linkedin.svg" class="img-fluid"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="https://github.com/fauzanichwan" target="_blank"><img src="asset/img/github.svg" class="img-fluid"></a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end of content -->
-    
-    <script src="asset/js/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.js" ></script>
-    <script type="text/javascript">
-        $(function() {
-            var navbar = $('.header-inner');
-            $(window).scroll(function() {
-                if ($(window).scrollTop() <= 40 ) {
-                    navbar.removeClass('navbar-scroll');
-                } else {
-                    navbar.addClass('navbar-scroll');
-                }
-            });
-        });
-    </script>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
 </body>
+
 </html>
