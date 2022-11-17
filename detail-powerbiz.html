@@ -1,253 +1,608 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Fauzan`s Portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: PhotoFolio - v1.0.0
-  * Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fauzan`s Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css" type="text/css">
 </head>
-
 <body>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center  me-auto me-lg-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <i class="bi bi-camera"></i>
-        <h1>Portfolio</h1>
-      </a>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Me</a></li>
-          <!-- <li class="dropdown"><a href="#"><span>Gallery</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="gallery.html">Nature</a></li>
-              <li><a href="gallery.html">People</a></li>
-              <li><a href="gallery.html">Architecture</a></li>
-              <li><a href="gallery.html">Animals</a></li>
-              <li><a href="gallery.html">Sports</a></li>
-              <li><a href="gallery.html">Travel</a></li>
-              <li class="dropdown"><a href="#"><span>Sub Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                  <li><a href="#">Sub Menu 1</a></li>
-                  <li><a href="#">Sub Menu 2</a></li>
-                  <li><a href="#">Sub Menu 3</a></li>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" style="font-weight: bold;">Portfolio.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://drive.google.com/file/d/1W6wZFijvEeBMPp6V5xXUgoZ_s06oZns4/view?usp=sharing" target="_blank">Download CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mailto:fauzanichwan99@gmail.com" target="_blank">Email</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://wa.me/085973814784" target="_blank">WhatsApp Me</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Other Links
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://power.biz.id/" target="_blank">Our Studio</a></li>
+                            <li><a class="dropdown-item" href="https://github.com/fauzanichwan" target="_blank">Github</a></li>
+                            <li><a class="dropdown-item" href="https://www.linkedin.com/in/fauzan-ichwan-nur-pratama-982507176/" target="_blakn">LinkedIn</a></li>
+                            <li><a class="dropdown-item" href="https://www.instagram.com/fauzan.ichwan/" target="_blank">Instagram</a></li>
+                        </ul>
+                    </li>
                 </ul>
-              </li>
-            </ul>
-          </li> -->
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="http://power.biz.id/" target="_blank">Our Studio</a></li>
-        </ul>
-      </nav><!-- .navbar -->
-
-      <div class="header-social-links">
-        <!-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a> -->
-        <a href="https://www.instagram.com/fauzan.ichwan/" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/fauzan-ichwan-nur-pratama-982507176/" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></i></a>
-        <a href="https://github.com/fauzanichwan" class="instagram" target="_blank"><i class="bi bi-github"></i></a>
-      </div>
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-
-    </div>
-  </header><!-- End Header -->
-
-  <main id="main" data-aos="fade" data-aos-delay="1500">
-
-    <!-- ======= End Page Header ======= -->
-    <div class="page-header d-flex align-items-center">
-      <div class="container position-relative">
-        <div class="row d-flex justify-content-center">
-          <div class="col-lg-5 text-center">
-            <h2>Powerbiz</h2>
-            <p>Powerbiz is a platform for manage all your sales needs, like a products, warehouses until shipping process.</p>
-
-            <div class="row">
-              <div class="col-lg-12 mt-2">
-                <!-- <a class="btn btn-outline-success" href="http://saas-admin.sit.powerbiz.asia/" style="width: 100%;" target="_blank"><i class="bi bi-box"></i>&nbsp;&nbsp;&nbsp;Website</a> -->
-                <a class="btn btn-outline-success" href="https://power.biz.id/powerbiz/" style="width: 100%;" target="_blank"><i class="bi bi-box"></i>&nbsp;&nbsp;&nbsp;Website</a>
-              </div>
-              <!-- <div class="col-lg-6 mt-2">
-                <a class="btn btn-outline-success" href="https://play.google.com/store/apps/details?id=id.powercommerce.kino_siap" style="width: 100%;" target="_blank"><i class="bi bi-android"></i>&nbsp;&nbsp;Playstore</a>
-              </div> -->
-              <!-- <div class="col-lg-4 mt-2">
-                <a class="btn btn-outline-success" href="contact.html" style="width: 100%;"><i class="bi bi-apple"></i>&nbsp;&nbsp;AppStore</a>
-              </div> -->
             </div>
-
-          </div>
         </div>
-      </div>
-    </div><!-- End Page Header -->
+    </nav>
+    <!-- nav -->
 
-    <!-- ======= Gallery Single Section ======= -->
-    <section id="gallery-single" class="gallery-single">
-      <div class="container">
+    <!-- content -->
+    <div class="container mb-4">
 
         <div class="row">
-          <div class="col-lg-10">
-            <div class="position-relative h-100">
-              <div class="slides-1 portfolio-details-slider swiper">
-                <div class="swiper-wrapper">
-    
-                  <div class="swiper-slide">
-                    <img src="img/powerbiz.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/single/powerbiz/1.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/single/powerbiz/2.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/single/powerbiz/3.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/single/powerbiz/4.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/single/powerbiz/5.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="img/single/powerbiz/6.png" alt="" class="img-fluid">
-                  </div>
-    
-                </div>
-                <!-- <div class="swiper-pagination"></div> -->
-              </div>
-              <!-- <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div> -->
-    
+            <div class="col-md-12">
+                <nav aria-label="breadcrumb" style="margin-top: 2%;">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Powerbiz</li>
+                    </ol>
+                </nav>
             </div>
-          </div>
-          <div class="col-lg-2">
-            <div class="portfolio-info mt-3">
-              <h3>Project information</h3>
-              <ul>
-                <li><strong>Company</strong> <span>Powercommerce Asia</span></li>
-                <li><strong>Client</strong> <span>Related Client</span></li>
-                <li><strong>Made With</strong> <span><img src="img/figma.svg">Figma</span></li>
-                <!-- <li><strong>Project URL</strong> <a href="#">www.example.com</a></li>
-                <li><a href="#" class="btn-visit align-self-start">Visit Website</a></li> -->
-              </ul>
-            </div>
-          </div>
         </div>
 
-        <!-- <div class="row justify-content-between gy-4 mt-4">
-
-          <div class="col-lg-8">
-            <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-              </p>
-              <p>
-                Amet consequatur qui dolore veniam voluptatem voluptatem sit. Non aspernatur atque natus ut cum nam et. Praesentium error dolores rerum minus sequi quia veritatis eum. Eos et doloribus doloremque nesciunt molestiae laboriosam.
-              </p>
-
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <div>
-                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
-                </div>
-              </div>
-
-              <p>
-                Impedit ipsum quae et aliquid doloribus et voluptatem quasi. Perspiciatis occaecati earum et magnam animi. Quibusdam non qui ea vitae suscipit vitae sunt. Repudiandae incidunt cumque minus deserunt assumenda tempore. Delectus voluptas necessitatibus est.
-
-              <p>
-                Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero. Explicabo et quod necessitatibus similique quis dolor eum. Numquam eaque praesentium rem et qui nesciunt.
-              </p>
-
+        <div class="row gy-4">
+            <div class="col-md-6">
+                <img src="assets/img/detail-pbiz/bg-powerbiz.png" class="img-fluid">
             </div>
-          </div>
 
-          <div class="col-lg-3">
+            <div class="col-md-6">
+                <p style="font-weight: bold; font-size: 48px;">Powerbiz</p>
+
+                <h5>Powerbiz is a platform for manage all your sales needs, like a products, warehouses until shipping process, the whole proccess in omnichannel can powerbizz provided, like integrate with some ecommerce in one platform.</h5>
+
+                <ul>
+                    <li><h5>B2B, B2C</h5></li>
+                    <li><h5>Distributorship Management System</h5></li>
+                    <li><h5>Warehouse Management System</h5></li>
+                    <li><h5>Ominchannel</h5></li>
+                    <li><h5>Ecommerce Enabler</h5></li>
+                    <li><h5>Webcommerce</h5></li>
+                    <li><h5>Fundraising Platform</h5></li>
+                </ul>
+
+                <p>
+                    <a href="https://power.biz.id/powerbiz/" class="btn btn-outline-primary btn-lg" target="_blank">Visit Website</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="row gy-4 mt-4">
+            <div class="col-md-12">
+                <p style="font-weight: bold; font-size: 48px;">Overview</p>
+            </div>
             
-          </div>
+            <div class="col-md-6">
+                <div class="container-image">
+                    <h3 class="title-overview"><span>IA Dashboard</span></h3>
+                    <img src="assets/img/detail-pbiz/ia-dashboard.jpg" alt="" class="img-fluid image">
+                    <div class="middle">
+                        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#iaDashboardModal">View Detail</button>
+                    </div>
+                </div>
+                <!-- modal -->
+                <div class="modal fade" id="iaDashboardModal" tabindex="-1" aria-labelledby="iaDashboardModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="iaDashboardModalLabel">primaryrmation Architecture Dashboard</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/img/detail-pbiz/ia-dashboard.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal -->
+            </div>
 
-        </div> -->
+            <div class="col-md-6">
+                <div class="container-image">
+                    <h3 class="title-overview"><span>IA Register</span></h3>
+                    <img src="assets/img/detail-pbiz/ia-register.jpg" alt="" class="img-fluid image">
+                    <div class="middle">
+                        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#iaRegisterModal">View Detail</button>
+                    </div>
+                </div>
+                <!-- modal -->
+                <div class="modal fade" id="iaRegisterModal" tabindex="-1" aria-labelledby="iaRegisterModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="iaRegisterModalLabel">primaryrmation Architecture Register</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/img/detail-pbiz/ia-register.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal -->
+            </div>
 
-      </div>
-    </section><!-- End Gallery Single Section -->
+            <div class="col-md-6">
+                <div class="container-image">
+                    <h3 class="title-overview"><span>IA Sales</span></h3>
+                    <img src="assets/img/detail-pbiz/ia-sales.jpg" alt="" class="img-fluid image">
+                    <div class="middle">
+                        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#iaSalesModal">View Detail</button>
+                    </div>
+                </div>
+                <!-- modal -->
+                <div class="modal fade" id="iaSalesModal" tabindex="-1" aria-labelledby="iaSalesModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="iaSalesModalLabel">primaryrmation Architecture Sales</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/img/detail-pbiz/ia-sales.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal -->
+            </div>
 
-  </main><!-- End #main -->
+            <div class="col-md-6">
+                <div class="container-image">
+                    <h3 class="title-overview"><span>IA Fulfillment</span></h3>
+                    <img src="assets/img/detail-pbiz/ia-full.jpg" alt="" class="img-fluid image">
+                    <div class="middle">
+                        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#iaFullModal">View Detail</button>
+                    </div>
+                </div>
+                <!-- modal -->
+                <div class="modal fade" id="iaFullModal" tabindex="-1" aria-labelledby="iaFullModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="iaFullModalLabel">primaryrmation Architecture Fulfillment</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/img/detail-pbiz/ia-full.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal -->
+            </div>
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>FauzanIchwan</span></strong>. All Rights Reserved
-      </div>
-      <!-- <div class="credits"> -->
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/ -->
-        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div> -->
+            <div class="col-md-6">
+                <div class="container-image">
+                    <h3 class="title-overview"><span>IA Product</span></h3>
+                    <img src="assets/img/detail-pbiz/ia-produk.jpg" alt="" class="img-fluid image">
+                    <div class="middle">
+                        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#iaProdukModal">View Detail</button>
+                    </div>
+                </div>
+                <!-- modal -->
+                <div class="modal fade" id="iaProdukModal" tabindex="-1" aria-labelledby="iaProdukModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="iaProdukModalLabel">primaryrmation Architecture Product</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/img/detail-pbiz/ia-produk.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal -->
+            </div>
+
+            <div class="col-md-6">
+                <div class="container-image">
+                    <h3 class="title-overview"><span>IA Category</span></h3>
+                    <img src="assets/img/detail-pbiz/ia-category.jpg" alt="" class="img-fluid image">
+                    <div class="middle">
+                        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#iaKategoriModal">View Detail</button>
+                    </div>
+                </div>
+                <!-- modal -->
+                <div class="modal fade" id="iaKategoriModal" tabindex="-1" aria-labelledby="iaKategoriModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="iaKategoriModalLabel">primaryrmation Architecture Category</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/img/detail-pbiz/ia-category.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal -->
+            </div>
+
+            <div class="col-md-6">
+                <div class="container-image">
+                    <h3 class="title-overview"><span>Login</span></h3>
+                    <img src="assets/img/detail-pbiz/login.jpg" alt="" class="img-fluid image">
+                    <div class="middle">
+                        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#loginModal">View Detail</button>
+                    </div>
+                </div>
+                <!-- modal -->
+                <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="loginModalLabel">Login</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/img/detail-pbiz/login.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal -->
+            </div>
+
+            <div class="col-md-6">
+                <div class="container-image">
+                    <h3 class="title-overview"><span>Dashboard</span></h3>
+                    <img src="assets/img/detail-pbiz/dashboard.jpg" alt="" class="img-fluid image">
+                    <div class="middle">
+                        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#dashboardModal">View Detail</button>
+                    </div>
+                </div>
+                <!-- modal -->
+                <div class="modal fade" id="dashboardModal" tabindex="-1" aria-labelledby="dashboardModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="dashboardModalLabel">Dashboard</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/img/detail-pbiz/dashboard.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal -->
+            </div>
+
+            <div class="col-md-6">
+                <div class="container-image">
+                    <h3 class="title-overview"><span>Sales</span></h3>
+                    <img src="assets/img/detail-pbiz/sales.jpg" alt="" class="img-fluid image">
+                    <div class="middle">
+                        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#salesModal">View Detail</button>
+                    </div>
+                </div>
+                <!-- modal -->
+                <div class="modal fade" id="salesModal" tabindex="-1" aria-labelledby="salesModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="salesModalLabel">Sales</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/img/detail-pbiz/sales.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal -->
+            </div>
+
+            <div class="col-md-6">
+                <div class="container-image">
+                    <h3 class="title-overview"><span>Fulfillment</span></h3>
+                    <img src="assets/img/detail-pbiz/fullfillment.jpg" alt="" class="img-fluid image">
+                    <div class="middle">
+                        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#fulfillmentModal">View Detail</button>
+                    </div>
+                </div>
+                <!-- modal -->
+                <div class="modal fade" id="fulfillmentModal" tabindex="-1" aria-labelledby="fulfillmentModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="fulfillmentModalLabel">Fulfillment</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/img/detail-pbiz/fullfillment.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal -->
+            </div>
+
+            <div class="col-md-6">
+                <div class="container-image">
+                    <h3 class="title-overview"><span>Product</span></h3>
+                    <img src="assets/img/detail-pbiz/produk.jpg" alt="" class="img-fluid image">
+                    <div class="middle">
+                        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#produkModal">View Detail</button>
+                    </div>
+                </div>
+                <!-- modal -->
+                <div class="modal fade" id="produkModal" tabindex="-1" aria-labelledby="produkModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="produkModalLabel">Product</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/img/detail-pbiz/produk.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal -->
+            </div>
+
+            <div class="col-md-6">
+                <div class="container-image">
+                    <h3 class="title-overview"><span>Business</span></h3>
+                    <img src="assets/img/detail-pbiz/bisnis.jpg" alt="" class="img-fluid image">
+                    <div class="middle">
+                        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#bisnisModal">View Detail</button>
+                    </div>
+                </div>
+                <!-- modal -->
+                <div class="modal fade" id="bisnisModal" tabindex="-1" aria-labelledby="bisnisModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="bisnisModalLabel">Business</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/img/detail-pbiz/bisnis.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal -->
+            </div>
+
+            <div class="col-md-6">
+                <div class="container-image">
+                    <h3 class="title-overview"><span>Users</span></h3>
+                    <img src="assets/img/detail-pbiz/user.jpg" alt="" class="img-fluid image">
+                    <div class="middle">
+                        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#userModal">View Detail</button>
+                    </div>
+                </div>
+                <!-- modal -->
+                <div class="modal fade" id="userModal" tabindex="-1" aria-labelledby="userModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="userModalLabel">Users</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/img/detail-pbiz/user.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal -->
+            </div>
+
+            <div class="col-md-6">
+                <div class="container-image">
+                    <h3 class="title-overview"><span>Store</span></h3>
+                    <img src="assets/img/detail-pbiz/store.jpg" alt="" class="img-fluid image">
+                    <div class="middle">
+                        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#storeModal">View Detail</button>
+                    </div>
+                </div>
+                <!-- modal -->
+                <div class="modal fade" id="storeModal" tabindex="-1" aria-labelledby="storeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="storeModalLabel">Store</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/img/detail-pbiz/store.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal -->
+            </div>
+
+            <div class="col-md-6">
+                <div class="container-image">
+                    <h3 class="title-overview"><span>Synchronization</span></h3>
+                    <img src="assets/img/detail-pbiz/synchronization.jpg" alt="" class="img-fluid image">
+                    <div class="middle">
+                        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#syncModal">View Detail</button>
+                    </div>
+                </div>
+                <!-- modal -->
+                <div class="modal fade" id="syncModal" tabindex="-1" aria-labelledby="syncModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="syncModalLabel">Synchronization</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/img/detail-pbiz/synchronization.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal -->
+            </div>
+
+            <div class="col-md-6">
+                <div class="container-image">
+                    <h3 class="title-overview"><span>Inventory</span></h3>
+                    <img src="assets/img/detail-pbiz/inventory.jpg" alt="" class="img-fluid image">
+                    <div class="middle">
+                        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#inventoryModal">View Detail</button>
+                    </div>
+                </div>
+                <!-- modal -->
+                <div class="modal fade" id="inventoryModal" tabindex="-1" aria-labelledby="inventoryModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="inventoryModalLabel">Inventory</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/img/detail-pbiz/inventory.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal -->
+            </div>
+
+            <div class="col-md-6">
+                <div class="container-image">
+                    <h3 class="title-overview"><span>Promotion</span></h3>
+                    <img src="assets/img/detail-pbiz/promo.jpg" alt="" class="img-fluid image">
+                    <div class="middle">
+                        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#promoModal">View Detail</button>
+                    </div>
+                </div>
+                <!-- modal -->
+                <div class="modal fade" id="promoModal" tabindex="-1" aria-labelledby="promoModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="promoModalLabel">Promotion</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/img/detail-pbiz/promo.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal -->
+            </div>
+
+            <div class="col-md-6">
+                <div class="container-image">
+                    <h3 class="title-overview"><span>Withdrawl</span></h3>
+                    <img src="assets/img/detail-pbiz/withdraw.jpg" alt="" class="img-fluid image">
+                    <div class="middle">
+                        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#withdrawModal">View Detail</button>
+                    </div>
+                </div>
+                <!-- modal -->
+                <div class="modal fade" id="withdrawModal" tabindex="-1" aria-labelledby="withdrawModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="withdrawModalLabel">Withdrawl</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/img/detail-pbiz/withdraw.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal -->
+            </div>
+        </div>
+
     </div>
-  </footer>
-
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <div id="preloader">
-    <div class="line"></div>
-  </div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+    <!-- content -->
+    
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <script>
+        
+    </script>
+    <!-- js -->
 </body>
-
 </html>
